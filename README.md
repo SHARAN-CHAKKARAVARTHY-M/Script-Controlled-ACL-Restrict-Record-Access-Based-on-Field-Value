@@ -3,6 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/ServiceNow-Platform%20Security-293e40?style=for-the-badge&logo=servicenow&logoColor=white" alt="ServiceNow"/>
   <img src="https://img.shields.io/badge/Program-Naan%20Mudhalvan%20%7C%20TN%20Skills-0284c7?style=for-the-badge" alt="Naan Mudhalvan"/>
+  <img src="https://img.shields.io/badge/Team%20ID-SWTID--2026--4064-8b5cf6?style=for-the-badge" alt="Team ID"/>
   <img src="https://img.shields.io/badge/Status-Completed%20(100%25)-16a34a?style=for-the-badge" alt="Status Completed"/>
   <img src="https://img.shields.io/badge/Documentation-DOCX%20%26%20PDF%20Ready-d97706?style=for-the-badge" alt="Documentation"/>
   <img src="https://img.shields.io/badge/License-MIT-gray?style=for-the-badge" alt="License"/>
@@ -12,17 +13,39 @@
 
 ## 📌 Project Overview & Submission Details
 
-This repository hosts the complete implementation, configuration artifacts, JavaScript security scripts, and official submission documentation for the capstone project **"Script-Controlled ACL: Restrict Record Access Based on Field Value"**, developed under the **Naan Mudhalvan / TN Skills (Tamil Nadu Skill Development Corporation - TNSDC)** initiative in partnership with **ServiceNow**.
+This repository hosts the complete implementation, configuration artifacts, JavaScript security scripts, and official submission documentation for the capstone project **"Script-Controlled ACL: Restrict Record Access Based on Field Value"**, developed under the **Naan Mudhalvan / TN Skills (Tamil Nadu Skill Development Corporation - TNSDC)** initiative in partnership with **SmartBridge** and **ServiceNow**.
 
-### 👨‍🎓 Candidate & Submission Profile
-- **Candidate Name:** SHARAN CHAKKARAVARTHY M
-- **GitHub Username:** [@SHARAN-CHAKKARAVARTHY-M](https://github.com/SHARAN-CHAKKARAVARTHY-M)
-- **Repository:** [Script-Controlled-ACL-Restrict-Record-Access-Based-on-Field-Value](https://github.com/SHARAN-CHAKKARAVARTHY-M/Script-Controlled-ACL-Restrict-Record-Access-Based-on-Field-Value)
+### 📋 Academic & Platform Metadata
+- **Project Title:** Script-Controlled ACL: Restrict Record Access Based on Field Value
+- **Team ID:** `SWTID-2026-4064`
+- **Team Size:** 4 Members
+- **Learning Portal:** SkillWallet (SmartBridge) / Naan Mudhalvan
 - **Program:** Naan Mudhalvan / TN Skills Higher Education Upskilling Initiative
 - **Technology Domain:** ServiceNow Application Development & Enterprise Platform Security
-- **Target Application Scope:** `Global`
+- **Required Skills:** ServiceNow Administration, JavaScript Scripting, Access Control Lists (ACL)
+- **Application Scope:** `Global`
 - **Update Set:** `ACL Project [Global]`
-- **Custom Table:** `u_institution_details` (*Institution Details*)
+- **Target Custom Table:** `u_institution_details` (*Institution Details*)
+- **GitHub Repository:** [https://github.com/SHARAN-CHAKKARAVARTHY-M/Script-Controlled-ACL-Restrict-Record-Access-Based-on-Field-Value](https://github.com/SHARAN-CHAKKARAVARTHY-M/Script-Controlled-ACL-Restrict-Record-Access-Based-on-Field-Value)
+
+---
+
+## 👥 Project Team & Responsibility Assignment Matrix (RACI)
+
+The project tasks were methodically planned and distributed across all four team members according to the official portal milestones:
+
+| Team Member Name | Role in Team | Designated Milestones & Responsibilities | Platform Assigned Tasks |
+| :--- | :--- | :--- | :--- |
+| **SHARAN CHAKKARAVARTHY M** | **Team Lead** | • Milestone 4: Creation of ACL-Create (`bb2` Role)<br>• Milestone 5: Creation of ACL-Write (`bb3` Role)<br>• Project Architecture, GitHub Setup & Technical Documentation | `Creation of ACL-Create`<br>`Creation of ACL-Write` |
+| **Poovarasu P** | **Team Member** | • Milestone 1: Users Creation (`EEEUser`)<br>• Milestone 1: Roles Creation (`bb1`, `bb2`, `bb3`, `bb4`)<br>• Identity & Access Management (IAM) Configuration | `Users Creation`<br>`Roles Creation` |
+| **Balaji N** | **Team Member** | • Milestone 2: Custom Table Creation (`u_institution_details`)<br>• Milestone 2: Data Dictionary Columns Setup (7 Fields)<br>• Milestone 3: Creation of ACL-Read Configuration | `Creation of Table`<br>`ACL Configuration` |
+| **Nadar Athisaya Mic Harris Antony Nelson** | **Team Member** | • Milestone 6: Creation of ACL-Delete (`bb4` Role)<br>• Milestone 7: Project Outcome, Validation & Conclusion<br>• Destructive Action Security & Modal Verification | `Creation of ACL-DELETE`<br>`Project Outcome` |
+
+<p align="center">
+  <img src="screenshots/team/skillwallet_team_profile.png" alt="SkillWallet Team Roster" width="850"/>
+  <br>
+  <em>Figure: Official Project Team Roster and Required Skill Stack on SkillWallet (MySkillWallet) Portal</em>
+</p>
 
 ---
 
@@ -332,6 +355,8 @@ Script-Controlled-ACL-Restrict-Record-Access-Based-on-Field-Value/
     ├── milestone_6/                        # Milestone 6: Delete ACL & Modal
     │   ├── 34_verify_delete_action_selected.png
     │   └── 35_verify_delete_confirmation_modal.png
+    ├── team/                               # Project Team Profile & Skill Matrix
+    │   └── skillwallet_team_profile.png
     └── naan_mudhalvan_portal/              # Reference Screenshots from Course Portal
         ├── Screenshot_20261005_125604.png
         └── ...
@@ -376,14 +401,16 @@ The server-side JavaScript logic evaluated within the **Read Access Control** is
 
 ## 🏆 Acknowledgements & Certification
 
-This project was developed by **SHARAN CHAKKARAVARTHY M** as part of the:
+This project was developed by the student team (**Team ID: SWTID-2026-4064**) as part of the:
 - **Naan Mudhalvan Scheme** – Government of Tamil Nadu
 - **Tamil Nadu Skill Development Corporation (TNSDC)**
+- **SmartBridge Educational Services**
 - **ServiceNow Academic & Developer Program**
 
 ---
 
 <p align="center">
-  <b>© 2026 SHARAN CHAKKARAVARTHY M. All Rights Reserved.</b><br>
+  <b>Project Team Members (Team ID: SWTID-2026-4064)</b><br>
+  <b>SHARAN CHAKKARAVARTHY M (Team Lead)</b> &bull; <b>Poovarasu P</b> &bull; <b>Balaji N</b> &bull; <b>Nadar Athisaya Mic Harris Antony Nelson</b><br>
   <i>Submitted for Naan Mudhalvan / TN Skills Final Valuation</i>
 </p>
